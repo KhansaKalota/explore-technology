@@ -1,0 +1,104 @@
+/* General Body Style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 60px;
+  background: #4c829b;
+}
+
+/* Fixed Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #343a40;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+}
+.navbar a {
+  color: #dfd1d1;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Box Section */
+.box {
+  background: #fff;
+  border: 2px solid #000;
+  padding: 25px;
+  margin: 50px auto;
+  width: 80%;
+  text-align: center;
+}
+
+/* Elliptical Shape */
+.ellipse {
+  width: 200px;
+  height: 100px;
+  background: #250bb8;
+  border-radius: 50% / 30%;
+  margin: 30px auto;
+}
+
+/* Gadgets Card */
+.card {
+  background: white;
+  border: 1px solid #555;
+  padding: 20px;
+  margin: 30px auto;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Circle Image */
+.circle-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Info Box for AI */
+.info-box {
+  position: absolute;
+  top: 200px;
+  right: 40px;
+  background: #ffc107;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+/* Contact Form */
+form {
+  background: white;
+  width: 300px;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input, textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+button {
+  padding: 10px 20px;
+  background: #198754;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
